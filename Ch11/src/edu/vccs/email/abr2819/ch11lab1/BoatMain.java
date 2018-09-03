@@ -2,8 +2,9 @@ package edu.vccs.email.abr2819.ch11lab1;
 
 /**
  * create different kinds of Boats using polymorphism
- * 2018-08-28
- * @author john maxfield
+ * 2018-09-05
+ * @author Brad Ridder
+ * @author Jhanavi Ghadia
  */
 public class BoatMain {
    public static void main(String[] args) {
