@@ -1,6 +1,6 @@
 package edu.vccs.email.abr2819.ch11lab1;
 
-public class PowerBoat extends Boat {
+public class PowerBoat extends Boat implements BoatWithEngine{
    private String name;
    private double HP;
 
@@ -12,19 +12,18 @@ public class PowerBoat extends Boat {
       return name;
    }
 
-   public void setHp(double HP) {
+   public void setHP(double HP) {
       this.HP = HP;
    }
 
-   public double getHp() {
+   public double getHP() {
       return HP;
    }
 
    @Override
    public String toString() {
-      return "PowerBoat{" +
-          "name='" + name + '\'' +
-          ", hp=" + HP +
-          '}';
+      return  "\'" + name + "\'" +
+          " is a " + getLength() +
+          " ft. power boat.";
    }
 }

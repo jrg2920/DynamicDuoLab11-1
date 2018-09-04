@@ -1,20 +1,20 @@
 package edu.vccs.email.abr2819.ch11lab1;
 
-public class PWC extends Boat{
+public class PWC extends Boat implements BoatWithEngine{
    private double HP;
 
    public double getHP() {
       return HP;
    }
 
-   public void setHP(double hp) {
+   @Override
+   public void setHP(double HP) {
       this.HP = HP;
    }
 
    @Override
    public String toString() {
-      return "PWC{" +
-          "hp=" + HP +
-          '}';
+      return "This is a " + getLength() +
+          " ft. PWC.";
    }
 }

@@ -18,14 +18,18 @@ public class BoatMain {
       // set all the attributes
       boats[0].setLength(17.0);
       ((PowerBoat)boats[0]).setName("Lucky");
-      ((PowerBoat)boats[0]).setHp(65.0);
+      ((PowerBoat)boats[0]).setHP(65.0);
+
       boats[1].setLength(10.4);
-      ((SUP)boats[1]).IsInFlatable=false;
+      ((SUP)boats[1]).IsInflatable=false;
+
+      boats[2].setLength(11.1);
+      ((PWC)boats[2]).setHP(200.0);
 
       for (Boat boat : boats) {
          System.out.println(boat);
          if (boat instanceof BoatWithEngine) {
-            System.out.println("Engine hp: " + ((BoatWithEngine)boats[0]).getHP());
+            System.out.println("Engine hp: " + ((BoatWithEngine)boat).getHP());
          }
       }
    }
