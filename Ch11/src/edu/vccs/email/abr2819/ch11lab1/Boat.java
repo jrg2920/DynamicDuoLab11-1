@@ -1,7 +1,7 @@
 package edu.vccs.email.abr2819.ch11lab1;
 
 /**
- *
+ * abstract boat class to get and set the length of the boat
  * 2018-09-05
  * @author Brad Ridder
  * @author Jhanavi Ghadia
