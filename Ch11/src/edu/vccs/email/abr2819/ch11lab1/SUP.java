@@ -10,8 +10,8 @@ public class SUP extends Boat {
    public boolean IsInflatable;   // true or false value whether the SUP is inflatable or not
 
    /**
-    * method to set a string value whether the SUP is inflatable or not
-    * @return String of whether the SUP is inflatable or not
+    * method with if-else to set a string value whether the SUP is inflatable or not
+    * @return string of whether the SUP is inflatable or not
     */
    public String SUPStringMethod() {
       if (IsInflatable) {
@@ -24,6 +24,7 @@ public class SUP extends Boat {
 
    /**
    * prints string with whether SUP is inflatable or not
+   * @return string with whether SUP is inflatable or not
    */
    @Override
    public String toString() {
