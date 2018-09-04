@@ -15,6 +15,7 @@ public interface BoatWithEngine {
    
    /**
    * method header for setting boat hp
+   * @param HP value for boat with an engine
    */
    void setHP(double HP);
 }
