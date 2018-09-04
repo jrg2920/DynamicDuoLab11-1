@@ -7,14 +7,22 @@ package edu.vccs.email.abr2819.ch11lab1;
  * @author Jhanavi Ghadia
  */
 public abstract class Boat {
-   private double length;
-
+   private double length;  // length of boat
+   
+   /**
+   * gets length value of boat
+   * @return length of boat
+   */
    public double getLength() {
       return length;
    }
-
+   
+   /**
+   * sets length value of boat
+   */
    public void setLength(double length) {
       this.length = length;
    }
+   
 }
 
