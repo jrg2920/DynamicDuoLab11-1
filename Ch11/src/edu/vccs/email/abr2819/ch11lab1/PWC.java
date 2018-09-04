@@ -12,6 +12,7 @@ public class PWC extends Boat implements BoatWithEngine{
 
    /**
    * gets the value for PWC boat hp
+   * @return hp value of PWC boat
    */
    public double getHP() {
       return HP;
@@ -19,6 +20,7 @@ public class PWC extends Boat implements BoatWithEngine{
 
    /**
    * sets the value for PWC boat hp
+   * @param HP value of PWC boat
    */
    @Override
    public void setHP(double HP) {
@@ -27,6 +29,7 @@ public class PWC extends Boat implements BoatWithEngine{
 
    /**
    * prints string with length of PWC boat
+   * @return string with length of PWC boat
    */
    @Override
    public String toString() {
