@@ -19,6 +19,7 @@ public abstract class Boat {
    
    /**
    * sets length value of boat
+   * @param length of boat
    */
    public void setLength(double length) {
       this.length = length;
