@@ -10,7 +10,7 @@ public class BoatMain {
    
    /**
    * creates different kinds of Boats using polymorphism
-   * @param unused
+   * @param args unused
    */
    public static void main(String[] args) {
       Boat[] boats = new Boat[3];            // array of Boat objects (all sub-class objects)
