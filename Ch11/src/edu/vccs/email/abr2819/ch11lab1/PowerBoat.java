@@ -13,6 +13,7 @@ public class PowerBoat extends Boat implements BoatWithEngine{
 
    /**
    * gets the string for powerboat name
+   * @return name of powerboat
    */
    public String getName() {
       return name;
@@ -20,6 +21,7 @@ public class PowerBoat extends Boat implements BoatWithEngine{
    
    /**
    * sets the string for powerboat name
+   * @param name of powerboat
    */
    public void setName(String name) {
       this.name = name;
@@ -27,6 +29,7 @@ public class PowerBoat extends Boat implements BoatWithEngine{
 
    /**
    * gets the value for powerboat hp
+   * @return powerboat hp value
    */
    public double getHP() {
       return HP;
@@ -34,6 +37,7 @@ public class PowerBoat extends Boat implements BoatWithEngine{
    
    /**
    * sets the value for powerboat hp
+   * @param HP value for powerboat
    */
    public void setHP(double HP) {
       this.HP = HP;
@@ -41,6 +45,7 @@ public class PowerBoat extends Boat implements BoatWithEngine{
    
     /**
    * prints string with length of powerboat
+   * @return string with length of powerboat
    */
    @Override
    public String toString() {
