@@ -7,6 +7,11 @@ package edu.vccs.email.abr2819.ch11lab1;
  * @author Jhanavi Ghadia
  */
 public class BoatMain {
+   
+   /**
+   * creates different kinds of Boats using polymorphism
+   * @param unused
+   */
    public static void main(String[] args) {
       Boat[] boats = new Boat[3];            // array of Boat objects (all sub-class objects)
 
